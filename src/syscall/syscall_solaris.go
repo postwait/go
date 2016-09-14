@@ -537,3 +537,5 @@ func writelen(fd int, buf *byte, nbuf int) (n int, err error) {
 	}
 	return
 }
+
+var Ioctl = ioctl
